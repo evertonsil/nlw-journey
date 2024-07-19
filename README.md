@@ -42,7 +42,7 @@
     <li>npx prisma studio</li>
   </ul>
 
-  <h4>Collection para testar os endpoints da API</h4>
+  <h4>Collection para testar os endpoints da API na raiz do projeto</h4>
   
   
  
