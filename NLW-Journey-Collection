@@ -1,0 +1,168 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "NLW Journey",
+    "collectionId": "2176df04-37da-4a00-b4fa-d3d61b3febad",
+    "dateExported": "2024-07-19T21:12:11.932Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "b24f0aec-2e83-44c7-b1e1-a497884ea8e3",
+            "colId": "2176df04-37da-4a00-b4fa-d3d61b3febad",
+            "containerId": "",
+            "name": "Create Trip",
+            "url": "http://localhost:3333/trips",
+            "method": "POST",
+            "sortNum": 2500,
+            "created": "2024-07-11T12:49:08.487Z",
+            "modified": "2024-07-11T12:49:08.487Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"destination\": \"Rio de Janeiro\",\n  \"starts_at\": \"2024-07-12 06:00:00\",\n  \"ends_at\": \"2024-07-17 18:00:00\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "d1cfdf86-c663-4fc7-a0f3-2ea95ca71db0",
+            "colId": "2176df04-37da-4a00-b4fa-d3d61b3febad",
+            "containerId": "",
+            "name": "Confirm Trip",
+            "url": "http://localhost:3333/trips/17c9fbfe-a838-4c04-bc8a-0de60637abb5/confirm",
+            "method": "GET",
+            "sortNum": 3750,
+            "created": "2024-07-11T19:27:56.739Z",
+            "modified": "2024-07-11T19:27:56.739Z",
+            "headers": []
+        },
+        {
+            "_id": "accf25eb-8148-4534-82bc-3564c0314f92",
+            "colId": "2176df04-37da-4a00-b4fa-d3d61b3febad",
+            "containerId": "",
+            "name": "Confirm Participant",
+            "url": "http://localhost:3333/participants/106dbfb6-ef5c-4c09-a746-d85e3dca1f26/confirm",
+            "method": "GET",
+            "sortNum": 5000,
+            "created": "2024-07-12T20:40:56.038Z",
+            "modified": "2024-07-12T20:40:56.038Z",
+            "headers": []
+        },
+        {
+            "_id": "73f994d4-3dd1-406f-83a3-44d36439643b",
+            "colId": "2176df04-37da-4a00-b4fa-d3d61b3febad",
+            "containerId": "",
+            "name": "Create Activity",
+            "url": "http://localhost:3333/trips/17c9fbfe-a838-4c04-bc8a-0de60637abb5/activities",
+            "method": "POST",
+            "sortNum": 22500,
+            "created": "2024-07-15T19:25:46.209Z",
+            "modified": "2024-07-15T19:25:46.209Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"Dogão no Calçadão\",\n  \"occurs_at\": \"2024-08-05 06:00:00\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "5f8a8874-0403-436a-a4b4-5f6617b39e9c",
+            "colId": "2176df04-37da-4a00-b4fa-d3d61b3febad",
+            "containerId": "",
+            "name": "Get Activities",
+            "url": "http://localhost:3333/trips/17c9fbfe-a838-4c04-bc8a-0de60637abb5/activities",
+            "method": "GET",
+            "sortNum": 31250,
+            "created": "2024-07-15T19:24:49.749Z",
+            "modified": "2024-07-19T20:26:15.532Z",
+            "headers": []
+        },
+        {
+            "_id": "4817e6d9-4bed-4b4f-9f1d-cacfed164c19",
+            "colId": "2176df04-37da-4a00-b4fa-d3d61b3febad",
+            "containerId": "",
+            "name": "Create Link",
+            "url": "http://localhost:3333/trips/17c9fbfe-a838-4c04-bc8a-0de60637abb5/links",
+            "method": "POST",
+            "sortNum": 35625,
+            "created": "2024-07-15T19:24:58.174Z",
+            "modified": "2024-07-15T19:24:58.174Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"Reserva da Pousada\",\n  \"url\": \"https://airbnb.com.br\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "a511e5c8-37ef-4cd2-8d69-5b42f67511d1",
+            "colId": "2176df04-37da-4a00-b4fa-d3d61b3febad",
+            "containerId": "",
+            "name": "Get Links",
+            "url": "http://localhost:3333/trips/17c9fbfe-a838-4c04-bc8a-0de60637abb5/links",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-07-15T19:24:44.777Z",
+            "modified": "2024-07-15T19:24:44.777Z",
+            "headers": []
+        },
+        {
+            "_id": "3067a055-6a39-4036-9401-5d0153fa5f69",
+            "colId": "2176df04-37da-4a00-b4fa-d3d61b3febad",
+            "containerId": "",
+            "name": "Get Participants",
+            "url": "http://localhost:3333/trips/17c9fbfe-a838-4c04-bc8a-0de60637abb5/participants",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-07-15T19:38:43.806Z",
+            "modified": "2024-07-15T19:38:43.806Z",
+            "headers": []
+        },
+        {
+            "_id": "33eb49e5-d605-4fe1-b4ea-3faee2b56310",
+            "colId": "2176df04-37da-4a00-b4fa-d3d61b3febad",
+            "containerId": "",
+            "name": "Create Invite",
+            "url": "http://localhost:3333/trips/17c9fbfe-a838-4c04-bc8a-0de60637abb5/links",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-07-15T20:00:27.588Z",
+            "modified": "2024-07-15T20:00:27.588Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"everton@teste.com\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "ad742aa3-6183-4a11-9418-a1ec5cf48598",
+            "colId": "2176df04-37da-4a00-b4fa-d3d61b3febad",
+            "containerId": "",
+            "name": "Update Trip",
+            "url": "http://localhost:3333/trips/128dc6d1-ac3f-4cc3-88f7-e4ca51864b0e1",
+            "method": "PUT",
+            "sortNum": 70000,
+            "created": "2024-07-16T13:38:59.484Z",
+            "modified": "2024-07-19T20:29:11.857Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"destination\": \"Osasco\",\n  \"starts_at\": \"2024-08-05 06:00:00\",\n  \"ends_at\": \"2024-08-10 06:00:00\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "4deefc3c-0628-4f11-b138-f45b8145862c",
+            "colId": "2176df04-37da-4a00-b4fa-d3d61b3febad",
+            "containerId": "",
+            "name": "Get Participant",
+            "url": "http://localhost:3333/participants/46d954a7-7778-41b9-bbfa-c9cc1fb793e3",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-07-16T13:51:01.571Z",
+            "modified": "2024-07-16T13:51:01.571Z",
+            "headers": []
+        }
+    ],
+    "ref": "d_liJGTg-j9ZUE2Gafgqg4Vbdpwi36SsxYFLUv-ueLjAppS4BCTjlmFqNyWmxpzQ39F0ZEtZhMeOHRVdwqcJKw"
+}
