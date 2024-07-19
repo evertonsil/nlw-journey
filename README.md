@@ -2,11 +2,13 @@
 
 <h4>Trilha NodeJs</h4>
 
+<img src="https://github.com/user-attachments/assets/728e9199-a89c-48cb-b0c1-0c6d83f835e8" width="30"/>
+
 <p>Nesse projeto foi desenvolvido o backend completo de uma aplicação de agendamento de viagens, utilizando NodeJs e o Prisma como ORM</p>
 
 <h4>Tecnologias Utilizadas</h4>
   <ul>
-    <li>NodeJS  ![image](https://github.com/user-attachments/assets/7dc1ef54-6810-4baf-801a-6763a3224970)</li>
+    <li>NodeJS</li>
       <ul>
         <li>Fastify</li>
         <li>Prisma</li>
