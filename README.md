@@ -11,6 +11,8 @@
         <li>Fastify</li>
         <li>Prisma</li>
         <li>Zod</li>
+        <li>Nodemailer</li>
+        <li>DayJS</li>
       </ul>
     <li>SQLITE</li>
     <li>TypeScript</li>
