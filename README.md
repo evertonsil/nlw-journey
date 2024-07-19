@@ -38,6 +38,7 @@
   <h4>Para rodar a API:</h4>
   <ol>
     <li>Clonar o repositório</li>
+    <li>Instalar as dependências com: npm install</li>
     <li>Rodar npm run dev</li>
   </ol>
 
