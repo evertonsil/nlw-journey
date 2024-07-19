@@ -48,6 +48,7 @@
   </ul>
 
   <h4>Collection para testar os endpoints da API na raiz do projeto</h4>
+  <h5>Link da documentação da API: https://nlw-journey.apidocumentation.com/reference</h5>
   
   
  
